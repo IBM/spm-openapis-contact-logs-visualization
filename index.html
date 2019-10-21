@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- d3-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+    thead th {
+        position: sticky;
+        top: 0;
+    }
+    th {
+        text-transform: capitalize;
+    }
+</style>
+<body>
+    <!-- HERO -->
+    <div class="container-fluid">
+        <div class="bg-transparent jumbotron"
+            style="background-position: center; background-size: cover; background-image: url(child_welfare_full_hero_bg.jpg)">
+            <img src="ibm.png" class="img-fluid" alt="Responsive image">
+            <h1 class="text-light display-4">Contact Logs Visualization</h1>
+            <p class="text-light lead">Visualize Contact Logs for a given Case ID</p>
+        </div>
+    </div>
+    <!-- UI -->
+    <div class="container-fluid">
+        <form onsubmit="formSubmitted(this[0].value, this[1].value); return false" name="contactLogForm">
+            <div class='form-group row justify-content-center'>
+                <label for="caseid" class='col-sm-2 col-form-label'>Case ID</label>
+                <div class='col-sm-6'>
+                    <input type="text" class="form-control" name="caseid" id="caseid" placeholder="Case ID">
+                </div>
+            </div>
+            <div class='form-group row justify-content-end'>
+                <div class='col-sm-3'>
+                    <button id="search" type="submit" class="btn btn-primary">Search</button>
+                    <button id="reset" type="button" class="btn btn-secondary" onclick="reset()">Reset</button>
+                </div>
+            </div>
+        </form>
+        <!-- Viusalization Components-->
+        <div style='min-height: 100px; max-height: 400px; overflow: auto;' id="spreadsheet"></div>
+        <div class="d-flex justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid" width="960" height="500"></svg>
+        </div>
+    </div>
+    <script>
+        let selectedTableLogs = new Map();
+
+        let svg = d3.select("svg"),
+            margin = { top: 20, right: 20, bottom: 110, left: 40 },
+            margin2 = { top: 430, right: 20, bottom: 30, left: 40 },
+            width = +svg.attr("width") - margin.left - margin.right,
+            height = +svg.attr("height") - margin.top - margin.bottom,
+            height2 = +svg.attr("height") - margin2.top - margin2.bottom;
+
+        let x = d3.scaleTime().range([0, width]),
+            x2 = d3.scaleTime().range([0, width]),
+            y = d3.scaleLinear().range([height, 0]),
+            y2 = d3.scaleLinear().range([height2, 0]);
+
+        let xAxis = d3.axisBottom(x),
+            xAxis2 = d3.axisBottom(x2),
+            yAxis = d3.axisLeft(y).tickFormat(d3.format('d'));
+
+        const histoChart = d3.histogram().value(d => new Date(d.startDate));
+        let mainChart = svg.append("g").attr("class", "mainChart").attr("transform", `translate(${margin.left},${margin.top})`);
+        let context = svg.append("g").attr("class", "context").attr("transform", `translate(${margin2.left},${margin2.top})`);
+
+        function formSubmitted(caseid) {
+            displayChart('big-data.json');
+        }
+
+        function displayChart(uri) {
+            d3.json(uri, function (error, data) {
+                if (error) throw error;
+
+                data.sort((a, b) => d3.ascending(a.startDate, b.startDate));
+
+                x.domain(d3.extent(data.map(d => new Date(d.startDate))));
+                x2.domain(x.domain());
+
+                //display axis
+                mainChart.append("g").attr("class", "axis axis--x").attr("transform", "translate(0," + height + ")").call(xAxis);
+                mainChart.append("g").attr("class", "axis axis--y").call(yAxis);
+
+                draw(data);
+
+                //setup brush 
+                let brush = d3.brushX().extent([[0, 0], [width, height2]]).on("brush end", brushed);
+                function brushed() {
+                    let source = d3.event.sourceEvent;
+                    if (source && source.type === "zoom") return; // ignore brush-by-zoom
+                    const s = d3.event.selection || x2.range();
+                    //update x domain
+                    x.domain(s.map(x2.invert, x2));
+                    draw(data);
+                }
+                //draw brush last so its visible to user
+                context.append("g").attr("class", "axis axis--x").attr("transform", "translate(0," + height2 + ")").call(xAxis2);
+                context.append("g").attr("class", "brush").call(brush).call(brush.move, x.range());
+            });
+        }
+
+        function draw(data) {
+            
+            const interval = getInterval(x.domain());
+            histoChart.domain(x.domain()).thresholds(interval.range(...(x.domain())));
+            
+            const histoData = histoChart(data)
+            const minLogs = 0;
+            const maxLogs = d3.max(histoData.map(el => el.length))
+            y.domain([minLogs, maxLogs]);
+            y2.domain(y.domain());
+
+            updateAxis(histoData);
+            drawHistogram(histoData);
+            drawContext(histoData);
+            drawSpreadsheet(d3.merge(histoData), '#spreadsheet');
+        }
+
+        function updateAxis(data) {
+            yAxis.tickValues(d3.range(y.domain()[0], y.domain()[1] + 1));
+            context.select("axis--x").call(xAxis2);
+            mainChart.select(".axis--x").call(xAxis);
+            mainChart.select(".axis--y").call(yAxis);
+        }
+        
+        function drawHistogram(data){
+
+            clearHistogram();
+            mainChart.selectAll('rect.area')
+                .data(data)
+                .enter()
+                .append("rect")
+                .attr("class", "area")
+                .on('click', barClicked)
+                .on("mouseover", hover)
+                .on("mouseout", mouseOut)
+                .attr('x', d => x(d.x0))
+                .attr('y', d => y(d.length))
+                .attr("width", d => x(d.x1) - x(d.x0))
+                .attr("height", d => height - y(d.length))
+                .style("stroke-width", "1px").style("fill", "royalblue").style("stroke", "#9A8B7A")
+            ;
+        }
+
+        function drawContext(data){
+            context.selectAll('rect.context-area')
+                .data(data)
+                .enter().append("rect")
+                .attr("class", "context-area")
+                .attr('x', d => x2(d.x0))
+                .attr('y', d => y2(d.length))
+                .attr("width", d => x2(d.x1) - x2(d.x0))
+                .attr("height", d => height2 - y2(d.length))
+                .style("stroke-width", "1px").style("fill", "royalblue").style("stroke", "#9A8B7A")
+            ;
+        }
+
+        function clearHistogram() {
+            // context.selectAll('rect.context-area').remove();
+            mainChart.selectAll('rect.area').remove();
+        }
+
+        function getInterval(dates) {
+            const formats = [d3.timeYear, d3.timeMonth, d3.timeWeek, d3.timeDay, d3.timeHour];
+            let format = formats.find((fmt) => fmt.range(...(d3.extent(dates))).length > 0)
+            return format === undefined ? d3.timeYear : format;
+        }
+
+
+        function barClicked(d) {
+            console.log('barClicked');
+        }
+
+        function mouseOut(elem) {
+            console.log('mouseOut')
+            d3.selectAll('rect.area').filter(d => d == elem).style('fill', 'royalblue');
+        }
+
+        function hover(elem) {
+            console.log('hover')
+            d3.selectAll('rect.area').filter(d => d == elem).style('fill', '#94B8FF');
+        }
+
+        function drawSpreadsheet(data, targetDiv) {
+            clearSpreadsheet()
+            const blacklist = /.*_id|FullName/;
+            let headers = d3.keys(data[0]).filter(e => e.search(blacklist) == -1);
+
+            d3.select(targetDiv).append("table").attr("class", "table table-dark table-hover table-sm");
+
+            //add headers
+            d3.select("table")
+                .append('thead')
+                .attr('class', 'thead-dark')
+                .append("tr")
+                .attr("class", "header")
+                .selectAll("th.data")
+                .data(headers)
+                .enter()
+                .append("th")
+                .attr("class", "header data")
+                .html(d => d)
+            ;
+
+            //add rows
+            d3.select("table")
+                .append('tbody')
+                .selectAll("tr.datarow")
+                .data(data)
+                .enter()
+                .append("tr")
+                .attr("class", "datarow")
+                .on('click', rowClicked)
+                .style("background-color", (d, i) => (selectedTableLogs.has(d.contact_log_id)) ? "royalblue" : null)
+            ;
+
+            //add values
+            d3.selectAll("tr.datarow")
+                .selectAll("td.data")
+                .data(d => d3.entries(d))
+                .enter()
+                .append("td")
+                .attr("class", "data")
+                .html(d => {
+                    let dataValue = typeof d.value === 'object' ? d.value.description : d.value;
+                    if (d.value.length > 0 && dataValue === undefined) {
+                        if (d.key === 'attendees' || d.key === 'concerning') {
+                            dataValue = d.value.map(person => person.fullName).join(', ');
+                        }
+                        if (d.key === 'purpose') {
+                            dataValue = d.value.map(p => p[d.key].description).join(', ');
+                        }
+                    }
+
+                    if (d.key === 'narrative' && dataValue.length > 100) {
+                        dataValue = `${dataValue.substring(0, 100)}...`;
+                    }
+
+                    if (d.key === 'startDate' || d.key === 'endDate') {
+                        const localeDate = d3.timeFormat('%x')
+                        dataValue = localeDate(new Date(d.value));
+                    }
+                    return dataValue !== null ? dataValue : "";
+                })
+                .style('display', (d, i) => (d.key.search(blacklist) === -1) ? 'table-cell' : 'none')
+            ;
+        }
+
+        function clearSpreadsheet() {
+            d3.select('table').remove();
+        }
+
+        function rowClicked(d) {
+            const id = d.contact_log_id;
+            let wasAdded = updateMap(id, d);
+            const color = wasAdded ? 'cornflowerblue' : null;
+            this.style['background-color'] = color;
+        }
+        
+        function updateMap(id, log){
+            const needsToBeAdded = !selectedTableLogs.has(id);
+            if (needsToBeAdded)
+                selectedTableLogs.set(id, log);
+            else
+                selectedTableLogs.delete(id, log);
+            return needsToBeAdded;
+        }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

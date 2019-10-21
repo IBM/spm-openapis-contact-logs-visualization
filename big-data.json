@@ -1,0 +1,5734 @@
+[
+    {
+        "contact_log_id": "-8458886000108634112",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T11:51:40.000+0000",
+        "endDate": "2019-06-10T16:51:40.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2001",
+            "description": "Office Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:51:40.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-2694278477074399232",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T11:51:36.000+0000",
+        "endDate": "2019-06-10T12:51:36.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:51:36.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "2782098669808123904",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T11:02:01.000+0000",
+        "endDate": "2019-06-10T12:02:01.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:02:01.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-5288351862439804928",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T11:01:55.000+0000",
+        "endDate": "2019-06-10T12:01:55.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:01:55.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-1253126596315840512",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T11:00:22.000+0000",
+        "endDate": "2019-06-10T15:00:22.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8501",
+            "description": "Supervision Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:00:23.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "115967690404790272",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T10:58:59.000+0000",
+        "endDate": "2019-06-10T12:58:59.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2004",
+            "description": "Notification"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T10:59:00.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-7954482841843138560",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T10:55:09.000+0000",
+        "endDate": "2019-06-10T12:55:09.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2000",
+            "description": "Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T10:55:09.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "5304114461135601664",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-06-10T10:48:15.000+0000",
+        "endDate": "2019-06-10T14:48:15.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T10:48:19.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-460493061898633216",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-30T16:25:25.000+0000",
+        "endDate": "2019-05-30T19:25:25.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T16:25:25.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "1557119571163348992",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-30T16:24:08.000+0000",
+        "endDate": "2019-05-30T16:24:08.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T16:24:08.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted4</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8242713217994850304",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-30T16:23:55.000+0000",
+        "endDate": "2019-05-30T16:23:55.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T16:23:55.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted2</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "6745266341894160384",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-30T16:21:28.000+0000",
+        "endDate": "2019-05-30T16:21:28.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T16:21:28.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted2</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-3486912011491606528",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-29T23:00:00.000+0000",
+        "endDate": "2019-05-29T23:00:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T15:14:49.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">hardcoyp</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-2333990506884759552",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-29T23:00:00.000+0000",
+        "endDate": "2019-05-29T23:00:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2000",
+            "description": "Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T15:12:17.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">interview received by fax</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-5504524644553588736",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-29T23:00:00.000+0000",
+        "endDate": "2019-05-29T23:00:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T16:08:18.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">case</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-3955286372738138112",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-29T06:30:00.000+0000",
+        "endDate": "2019-05-29T08:30:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2001",
+            "description": "Office Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T13:39:21.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "8654792583899250688",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-28T10:00:00.000+0000",
+        "endDate": "2019-12-20T12:30:00.000+0000",
+        "author": "unauthenticated",
+        "authorFullName": "Unauthenticated Test User",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-28T16:42:46.000+0000",
+            "username": "unauthenticated",
+            "userFullName": "Unauthenticated Test User",
+            "description": "<p dir=\"ltr\">How can a contact log go on for multiple days?</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-2383530102785835008",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-27T23:00:00.000+0000",
+        "endDate": "2019-05-27T23:00:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "narrative": {
+            "createdOn": "2019-05-28T15:13:04.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">First visit</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "4493466528208912384",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-25T00:04:53.000+0000",
+        "endDate": "2019-06-10T16:57:08.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:57:08.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "2610961883968045056",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-23T16:12:12.000+0000",
+        "endDate": "2019-06-10T16:07:28.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:28.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "7465842282273439744",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-23T06:30:00.000+0000",
+        "endDate": "2019-05-23T08:30:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2001",
+            "description": "Office Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T15:56:02.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-5630625434119962624",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-17T12:24:29.000+0000",
+        "endDate": "2019-06-10T14:07:23.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:23.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "4277293746095128576",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-05-14T12:22:43.000+0000",
+        "endDate": "2019-06-10T13:58:43.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2006",
+            "description": "Site visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:43.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8891231564336201728",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-04-12T15:30:00.000+0000",
+        "endDate": "2019-04-12T16:30:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T14:57:52.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Multi member case</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP8000",
+                    "description": "Assessment Discussion Entry"
+                }
+            },
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2002",
+                    "description": "Case Planning Entry"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "3124372241488281600",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-03-29T05:17:35.000+0000",
+        "endDate": "2019-06-10T14:58:50.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:50.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8314770812032778240",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-03-20T14:00:00.000+0000",
+        "endDate": "2019-03-20T15:30:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T13:43:06.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Met at starbucks and talked about victim and matreatment</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            },
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-1847601747128745984",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-02-11T01:11:21.000+0000",
+        "endDate": "2019-06-10T17:07:19.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:19.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "3106357842978799616",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-02-01T08:30:00.000+0000",
+        "endDate": "2019-02-01T09:00:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2000",
+            "description": "Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T10:12:36.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Phone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone call</p>\r\n\r\n<p dir=\"ltr\">&nbsp;</p>\r\n\r\n<p dir=\"ltr\">Phone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone callPhone call</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2002",
+                    "description": "Case Planning Entry"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-1820580149364523008",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-01-14T17:53:20.000+0000",
+        "endDate": "2019-06-10T16:07:38.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2006",
+            "description": "Site visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:38.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "3538703407206367232",
+        "case_id": "6119265993689661440",
+        "startDate": "2019-01-01T10:00:00.000+0000",
+        "endDate": "2019-01-01T11:30:00.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-05-30T10:11:20.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Visitation at the home</p>\r\n\r\n<p dir=\"ltr\">Visitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the homeVisitation at the home</p>"
+        },
+        "purpose": [
+            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2001",
+                    "description": "Alleged Maltreater Contact"
+                }
+            }
+        ]
+    },
+    {
+        "contact_log_id": "-8548957992656044032",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-11-26T00:17:05.000+0000",
+        "endDate": "2019-06-10T16:58:44.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:44.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-1856608946383486976",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-11-12T11:28:56.000+0000",
+        "endDate": "2019-06-10T13:07:30.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:30.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "8925008561541480448",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-10-15T19:50:40.000+0000",
+        "endDate": "2019-06-10T14:07:22.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:22.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "5349150457409306624",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-09-19T07:43:20.000+0000",
+        "endDate": "2019-06-10T17:07:32.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:32.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8657044383712935936",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-09-12T01:09:45.000+0000",
+        "endDate": "2019-06-10T16:07:22.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:22.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "7375770289726029824",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-08-24T18:37:04.000+0000",
+        "endDate": "2019-06-10T14:07:02.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:02.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "7447827883763957760",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-06-28T10:23:14.000+0000",
+        "endDate": "2019-06-10T16:58:44.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2001",
+            "description": "Office Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:44.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "5637380833561018368",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-06-21T12:01:20.000+0000",
+        "endDate": "2019-06-10T15:07:33.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:33.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "989666018114666496",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-06-11T18:45:40.000+0000",
+        "endDate": "2019-06-10T13:07:38.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:38.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-5054164681816539136",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-06-03T17:30:10.000+0000",
+        "endDate": "2019-06-10T17:07:21.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:21.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-1460292179174883328",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-06-03T17:26:59.000+0000",
+        "endDate": "2019-06-10T15:07:34.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:34.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "7366763090471288832",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-06-02T06:51:14.000+0000",
+        "endDate": "2019-06-10T14:07:30.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:30.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "3088343444469317632",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-05-15T21:41:20.000+0000",
+        "endDate": "2019-06-10T17:07:21.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:21.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "3196429835526209536",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-04-28T20:49:01.000+0000",
+        "endDate": "2019-06-10T12:58:52.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:52.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-5135229475109208064",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-04-26T15:40:48.000+0000",
+        "endDate": "2019-06-10T15:07:36.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:36.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8188670022466404352",
+        "case_id": "6119265993689661440",
+        "startDate": "2018-03-21T18:24:35.000+0000",
+        "endDate": "2019-06-10T14:07:19.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:19.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-4837991899702755328",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-12-11T23:47:44.000+0000",
+        "endDate": "2019-06-10T17:07:20.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:20.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-2460091296451133440",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-09-12T16:58:44.000+0000",
+        "endDate": "2019-06-10T13:07:26.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:26.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "5781496021636874240",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-09-08T19:59:17.000+0000",
+        "endDate": "2019-06-10T16:07:28.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:28.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "6069726397788585984",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-08-10T07:28:30.000+0000",
+        "endDate": "2019-06-10T15:07:29.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:29.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "8420605403275984896",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-07-27T19:11:32.000+0000",
+        "endDate": "2019-06-10T16:07:25.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:26.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "881579627057774592",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-07-17T18:10:09.000+0000",
+        "endDate": "2019-06-10T15:07:31.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:31.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "2187623518995218432",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-06-16T18:08:51.000+0000",
+        "endDate": "2019-06-10T14:07:02.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:02.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-1811572950109782016",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-05-10T09:44:11.000+0000",
+        "endDate": "2019-06-10T16:07:20.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:20.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "4601552919265804288",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-04-03T08:48:02.000+0000",
+        "endDate": "2019-06-10T13:07:20.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:20.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-9026339553157316608",
+        "case_id": "6119265993689661440",
+        "startDate": "2017-03-16T17:36:42.000+0000",
+        "endDate": "2019-06-10T16:07:35.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2001",
+            "description": "Office Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:35.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8332785210542260224",
+        "case_id": "6119265993689661440",
+        "startDate": "2016-10-31T05:26:10.000+0000",
+        "endDate": "2019-06-10T16:58:43.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:43.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "665406844943990784",
+        "case_id": "6119265993689661440",
+        "startDate": "2016-10-26T21:52:34.000+0000",
+        "endDate": "2019-06-10T13:07:33.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:33.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "4925812092436480000",
+        "case_id": "6119265993689661440",
+        "startDate": "2016-10-13T01:56:53.000+0000",
+        "endDate": "2019-06-10T15:07:01.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:01.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "6655194349346750464",
+        "case_id": "6119265993689661440",
+        "startDate": "2016-10-03T13:25:35.000+0000",
+        "endDate": "2019-06-10T12:57:10.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:57:10.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "782500435255623680",
+        "case_id": "6119265993689661440",
+        "startDate": "2016-07-24T22:32:06.000+0000",
+        "endDate": "2019-06-10T16:07:26.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2004",
+            "description": "Notification"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:26.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "4421408934170984448",
+        "case_id": "6119265993689661440",
+        "startDate": "2016-06-27T05:54:57.000+0000",
+        "endDate": "2019-06-10T15:07:03.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:03.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-334392272332259328",
+        "case_id": "6119265993689661440",
+        "startDate": "2016-02-03T05:16:28.000+0000",
+        "endDate": "2019-06-10T13:58:52.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8501",
+            "description": "Supervision Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:52.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "2295709910052110336",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-12-10T22:17:37.000+0000",
+        "endDate": "2019-06-10T14:07:23.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:23.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "7267683898669137920",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-11-30T19:12:59.000+0000",
+        "endDate": "2019-06-10T16:07:27.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2001",
+            "description": "Office Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:27.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "845550830038810624",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-11-29T15:20:29.000+0000",
+        "endDate": "2019-06-10T16:07:37.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:37.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "1458040379361198080",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-11-15T19:10:32.000+0000",
+        "endDate": "2019-06-10T13:07:29.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2001",
+            "description": "Office Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:29.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-694680242521899008",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-07-18T19:05:45.000+0000",
+        "endDate": "2019-06-10T15:07:02.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2000",
+            "description": "Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:02.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "1340946789049565184",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-07-11T07:57:34.000+0000",
+        "endDate": "2019-06-10T13:54:16.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:54:16.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-514536257427079168",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-07-09T04:26:44.000+0000",
+        "endDate": "2019-06-10T17:07:22.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2000",
+            "description": "Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:22.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-4874020696721719296",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-06-26T22:23:21.000+0000",
+        "endDate": "2019-06-10T12:58:51.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2000",
+            "description": "Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:51.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "7483856680782921728",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-03-24T19:30:47.000+0000",
+        "endDate": "2019-06-10T17:07:21.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:21.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-2180868119554162688",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-02-23T11:50:08.000+0000",
+        "endDate": "2019-06-10T13:07:37.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2006",
+            "description": "Site visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:37.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "2755077072043900928",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-02-02T00:38:42.000+0000",
+        "endDate": "2019-06-10T17:07:29.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:29.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-7143834908916449280",
+        "case_id": "6119265993689661440",
+        "startDate": "2015-01-25T01:50:31.000+0000",
+        "endDate": "2019-06-10T17:07:24.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:24.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-118219490218475520",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-12-20T20:57:23.000+0000",
+        "endDate": "2019-06-10T14:58:51.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:58:51.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "8979051757069926400",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-11-21T14:25:26.000+0000",
+        "endDate": "2019-06-10T13:56:51.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:56:51.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "6682215947110973440",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-11-04T10:02:22.000+0000",
+        "endDate": "2019-06-10T14:07:38.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:38.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-3225703233104117760",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-10-08T15:33:59.000+0000",
+        "endDate": "2019-06-10T13:07:34.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:34.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-2388033702413205504",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-09-25T11:57:45.000+0000",
+        "endDate": "2019-06-10T14:07:20.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:20.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8557965191910785024",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-04-16T05:43:28.000+0000",
+        "endDate": "2019-06-10T15:07:33.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:34.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8197677221721145344",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-04-14T16:30:11.000+0000",
+        "endDate": "2019-06-10T17:07:33.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:33.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "3439624215404216320",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-04-08T07:07:15.000+0000",
+        "endDate": "2019-06-10T13:07:36.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:36.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "5493265645485162496",
+        "case_id": "6119265993689661440",
+        "startDate": "2014-02-08T06:01:04.000+0000",
+        "endDate": "2019-06-10T14:07:31.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:31.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "4961840889455443968",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-11-22T05:08:03.000+0000",
+        "endDate": "2019-06-10T17:07:23.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:23.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-6900640529038442496",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-10-16T12:29:12.000+0000",
+        "endDate": "2019-06-10T17:07:34.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:34.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-4306567143673036800",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-08-10T18:07:52.000+0000",
+        "endDate": "2019-06-10T16:07:27.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2004",
+            "description": "Notification"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:27.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8485907597872857088",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-08-10T07:21:02.000+0000",
+        "endDate": "2019-06-10T17:07:32.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2006",
+            "description": "Site visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:32.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8404842804580188160",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-07-11T15:06:36.000+0000",
+        "endDate": "2019-06-10T12:57:06.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:57:06.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8621015586693971968",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-06-20T03:09:14.000+0000",
+        "endDate": "2019-06-10T17:07:03.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:03.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-4117415959323475968",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-06-05T19:40:16.000+0000",
+        "endDate": "2019-06-10T14:07:24.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8500",
+            "description": "Treatment Plan Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:24.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "737464438981918720",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-05-30T18:20:26.000+0000",
+        "endDate": "2019-06-10T14:07:32.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2004",
+            "description": "Notification"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:32.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "5466244047720939520",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-04-15T05:08:19.000+0000",
+        "endDate": "2019-06-10T14:07:20.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2000",
+            "description": "Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:20.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-1235112197806358528",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-03-18T04:04:40.000+0000",
+        "endDate": "2019-06-10T15:07:24.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8000",
+            "description": "Scheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2003",
+            "description": "Hospital"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8000",
+            "description": "Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:24.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8341792409797001216",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-03-01T11:22:32.000+0000",
+        "endDate": "2019-06-10T17:07:31.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:31.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "341147671773315072",
+        "case_id": "6119265993689661440",
+        "startDate": "2013-01-26T11:40:50.000+0000",
+        "endDate": "2019-06-10T17:07:34.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8501",
+            "description": "Supervision Interview"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:34.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-1892637743402450944",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-11-28T03:10:32.000+0000",
+        "endDate": "2019-06-10T16:07:36.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8002",
+            "description": "Multi-Disciplinary Team Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2002",
+            "description": "Face to Face"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:36.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-7765331657493577728",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-10-23T02:32:34.000+0000",
+        "endDate": "2019-06-10T17:07:29.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:29.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "2800113068317605888",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-06-18T22:46:58.000+0000",
+        "endDate": "2019-06-10T13:07:27.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2003",
+            "description": "Foster Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:27.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "1025694815133630464",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-05-13T01:24:34.000+0000",
+        "endDate": "2019-06-10T15:07:33.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2002",
+            "description": "Office"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:33.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "8348547809238056960",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-05-10T07:36:29.000+0000",
+        "endDate": "2019-06-10T15:07:24.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2002",
+            "description": "Case Conference"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2004",
+            "description": "Other"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:24.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-5522539043063070720",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-04-29T10:29:13.000+0000",
+        "endDate": "2019-06-10T17:07:01.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM8500",
+            "description": "Fax"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:02.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-8053562033645289472",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-04-04T02:58:19.000+0000",
+        "endDate": "2019-06-10T15:07:28.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2006",
+            "description": "Site visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2000",
+            "description": "Phone"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:28.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-2063774529242529792",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-03-26T19:14:47.000+0000",
+        "endDate": "2019-06-10T16:56:53.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT8001",
+            "description": "Unscheduled Visitation"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2000",
+            "description": "Home"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2001",
+            "description": "E-Mail"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "-5950381007663267840",
+                "fullName": "Jim Duffy",
+                "photo": ""
+            },
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T11:56:53.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    },
+    {
+        "contact_log_id": "-6351201374499241984",
+        "case_id": "6119265993689661440",
+        "startDate": "2012-02-28T00:42:32.000+0000",
+        "endDate": "2019-06-10T14:07:26.000+0000",
+        "author": "ccscaseworker",
+        "authorFullName": "Case Worker",
+        "type": {
+            "tableName": "ContactLogType",
+            "value": "CLT2005",
+            "description": "Home Visit"
+        },
+        "location": {
+            "tableName": "ContactLogLocation",
+            "value": "CLL2001",
+            "description": "School"
+        },
+        "method": {
+            "tableName": "ContactLogMethod",
+            "value": "CLM2003",
+            "description": "Hardcopy"
+        },
+        "source": "",
+        "attendees": [
+            {
+                "participant_id": "0",
+                "username": "ccscaseworker",
+                "fullName": "Case Worker",
+                "concernRoleType": null,
+                "photo": ""
+            }
+        ],
+        "concerning": [
+            {
+                "participant_id": "102",
+                "fullName": "Linda Smith",
+                "photo": "/abcdadksjfqhg2uq/1020000"
+            }
+        ],
+        "narrative": {
+            "createdOn": "2019-06-10T12:07:26.000+0000",
+            "username": "ccscaseworker",
+            "userFullName": "Case Worker",
+            "description": "<p dir=\"ltr\">Narrative Update Scripted5</p>"
+        },
+        "purpose": [            {
+                "purpose": {
+                    "tableName": "ContactLogPurpose",
+                    "value": "CLP2000",
+                    "description": "Alleged Victim Contact"
+                }
+            }]
+    }
+]
